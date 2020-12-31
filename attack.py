@@ -26,12 +26,12 @@ def status():
 if __name__ == '__main__':
     print "Json:",demjson.encode({
         'T':8, #Threads
-        'url': 'http://www.sample.com',
-        'path': '/index.php?id=1',
+        'url': 'https://vip5u.com',
+        'path': '/?p=1',
         'charset': 'utf-8',
-        'is_protected_by_cf': True,
-        'threadCount': 2000,
-        'peerCount': 10,
+        'is_protected_by_cf': flase,
+        'threadCount': 2000000,
+        'peerCount': 300,
         'keywords':'php'
     })
     app.run(host='0.0.0.0',port=80)
